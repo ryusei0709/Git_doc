@@ -44,7 +44,8 @@ Downloadボタンをクリックし、exeファイルを実行してください
 
 ![image info](img/git6.png)
 
-「use Visual Studio Code as Git´s default editor」 を選択し
+ <font color="red">「use Visual Studio Code as Git´s default editor」</font>
+ を選択し
 「Next」をクリックしてください。
 
 ![image info](img/git7.png)
@@ -102,7 +103,7 @@ Downloadボタンをクリックし、exeファイルを実行してください
 
 ![image info](img/vscode3.png)
 
-設定の検索バーに「Files Exclude」を入力し、「**/.git」を削除してください。
+設定の検索バーに「Files Exclude」を入力し、<font color="red">「**/.git」</font>を削除してください。
 
 削除が完了しましたら、Visual Studio Code のターミナルを起動(Ctrl + @)してください。
 
@@ -174,7 +175,7 @@ Ex 「mkdir push」
 
 ![image info](img/ssh3.png)
 
-「ssh-keygen -t rsa -b 4096」
+<font color="red">「ssh-keygen -t rsa -b 4096」</font>
 
 上記のコマンドを入力しましたらEnterを押しましょう。
 
@@ -203,7 +204,7 @@ Ex 「mkdir push」
 
 ![image info](img/ssh7.png)
 
-作成したsshKeyを 「clip < /c/Users/r_tsuchiya/.ssh/id_rsa.pub」コマンドを入力しクリップボードにコピーします。
+作成したsshKeyを <font color="red">「clip < /c/Users/r_tsuchiya/.ssh/id_rsa.pub」</font>コマンドを入力しクリップボードにコピーします。
 
 ※Ctrl + c などショートカットは利用できないので注意してください。
 
@@ -255,7 +256,7 @@ vsCodeのターミナルを開き。(Ctrl + @)
 
 ![image info](img/vsCodeCommand5.png)
 
-「git push origin master」コマンドを入力しGitHubへプッシュします。
+<font color="red">「git push origin master」</font>コマンドを入力しGitHubへプッシュします。
 
 ![image info](img/vsCodeCommand6.png)
 
