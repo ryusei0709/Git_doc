@@ -6,8 +6,14 @@
 https://github.com/join
 
 1. Gitのインストール
-2. ユーザー名とメールアドレスの設定
-3. Githubのアカウント設定
+2. .git の表示
+3. GitHubにリポジトリの作成
+4. ローカルリポジトリからリモートリポジトリへpush
+5. リモートリポジトリpushの準備
+6. sshKeyを作成しよう
+7. GitBash のsshKeyをクリップボードにコピーしよう。
+8. GitHubと自分のPCを結びつけよう。
+9. 実際にpushしてみよう。
 
 
 ### 1 Gitのインストール
@@ -108,7 +114,7 @@ Downloadボタンをクリックし、exeファイルを実行してください
 
 エクスプローラーに「.git」と表示されたら成功です。
 
-## Git hub のアカウントにログインします。
+## GitHubにリポジトリの作成
 
 ![image info](img/github1.png)
 
@@ -128,7 +134,7 @@ privateにチェックを入れて
 
 リモートリポジトリが完成出来ました。
 
-## ローカルリポジトリから、リモートリポジトリへプッシュしよう。
+## ローカルリポジトリから、リモートリポジトリへpush
 
 ![image info](img/github4.png)
 
@@ -146,7 +152,7 @@ git config --global user.email "メールアドレス"
 ※メールアドレスとユーザー名を設定することで、誰がコミットしたか
 分かる様になります。
 
-## リモートリポジトリにpushしよう
+## リモートリポジトリpushの準備
 
 ![image info](img/ssh1.png)
 
@@ -203,7 +209,7 @@ Ex 「mkdir push」
 
 ※Ctrl + c などショートカットは利用できないので注意してください。
 
-## Git hubと自分のPCを結びつけよう。
+## GitHubと自分のPCを結びつけよう。
 
 ![image info](img/ssh8.png)
 
